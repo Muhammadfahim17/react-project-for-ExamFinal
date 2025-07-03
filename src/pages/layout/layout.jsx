@@ -318,7 +318,7 @@ const Layout = () => {
               />
             </div>
           </div>
-<<<<<<< HEAD
+{/* <<<<<<< HEAD
 
         <div className='bg-[#070707] py-[55px] text-white'>
         <div className='w-[95%] m-auto flex flex-col items-center gap-[50px]'>
@@ -351,7 +351,9 @@ const Layout = () => {
 =======
         </div>
       </footer>
->>>>>>> c7a75d51528da015aeb528fd5a592a539a650155
+>>>>>>> c7a75d51528da015aeb528fd5a592a539a650155 */}
+    </div>
+    </footer>
     </div>
   );
 };
