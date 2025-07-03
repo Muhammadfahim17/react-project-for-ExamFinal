@@ -317,6 +317,16 @@ const Layout = () => {
                 alt=""
               />
             </div>
+
+            <p className='font-[500] text-white text-[22px] text-center' >Sarah Hamilton</p>
+
+<div className='flex text-white items-center gap-[25px]'>
+  <button className='border px-[15px] py-[15px] rounded-full font-bold'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6"><path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" /></svg></button>
+  <button className='border px-[15px] py-[15px] rounded-full font-bold'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6"><path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg></button>
+</div>
+
+
+
           </div>
 {/* <<<<<<< HEAD
 
