@@ -10,7 +10,7 @@ const component1 = () => {
           Discover, Select, Enjoy – Your Perfect Choice Awaits
         </h1>
 
-        <div className="w-[50%] h-[455px] m-auto relative ">
+        <div className="w-[50%] h-[456px] m-auto relative ">
           <div className="flex flex-col items-center p-3 rounded-2xl absolute z-1 top-10 -left-28 bg-white">
             <img src={img1} alt="" />
             <p className="text-[16px] font-semibold ">100% High Quality</p>

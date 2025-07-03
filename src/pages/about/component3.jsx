@@ -10,7 +10,7 @@ const component3 = () => {
           Discover, Select, Enjoy – Your Perfect Choice Awaits
         </h1>
 
-        <div className="w-[50%] h-[455px] m-auto relative ">
+        <div className="w-[50%] h-[456px] m-auto relative ">
           <div className="flex flex-col items-center p-3 rounded-2xl absolute z-1 top-10 -left-28 bg-white">
             <img src={img1} alt="" />
             <p className="text-[16px] font-semibold ">100% High Quality</p>
@@ -21,7 +21,7 @@ const component3 = () => {
 
           <img
             className="w-full h-full object-cover"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sarmalute_mamaliguta.JPG/1024px-Sarmalute_mamaliguta.JPG"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Paella_de_marisco_01.jpg/1280px-Paella_de_marisco_01.jpg"
             alt=""
           />
           <div className=" absolute z-1 top-20 -right-80 w-6/10 px-2.5">
