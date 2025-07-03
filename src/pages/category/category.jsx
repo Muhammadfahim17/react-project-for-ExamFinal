@@ -11,7 +11,7 @@ const Category = () => {
 
 
       <div className='border bg-[#070707] text-white'>
-      <img className='h-[]' src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiNkY8-4UvzY2mk-yp54kSyRkzvq72uaxgHA&s`} alt="" />
+      <img className='h-[700px]' src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiNkY8-4UvzY2mk-yp54kSyRkzvq72uaxgHA&s`} alt="" />
       </div>
 
     </div>
