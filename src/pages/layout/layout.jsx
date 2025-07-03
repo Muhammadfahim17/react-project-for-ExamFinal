@@ -164,7 +164,7 @@ const Layout = () => {
 
           </div>
 
-        <div className='bg-[#070707] py-[55px]'>
+        <div className='bg-[#070707] py-[55px] text-white'>
         <div className='w-[95%] m-auto flex flex-col items-center gap-[50px]'>
         <h1 className='text-white text-[40px] text-center'>{t('Example.19')}</h1>
 
@@ -174,7 +174,19 @@ const Layout = () => {
           <img className='w-[320px] h-[280px] rounded-xl rotate-[10deg]' src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtbBoESC-0jPlLGkoQB1eydQ_ZrZfmETtCWg&s`} alt="" />
         </div>
 
+        <p className='font-[500] text-[22px] text-center' >Sarah Hamilton</p>
+
+        <div className='flex items-center gap-[25px]'>
+          <button className='border px-[15px] py-[15px] rounded-full font-bold'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6"><path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" /></svg></button>
+          <button className='border px-[15px] py-[15px] rounded-full font-bold'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6"><path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg></button>
         </div>
+
+        </div>
+        </div>
+
+
+        <div className='bg-[#070707] text-white w-[94%] m-auto mt-[70px] p-[25px] rounded-xl'>
+
         </div>
 
 
