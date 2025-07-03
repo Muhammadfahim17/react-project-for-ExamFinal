@@ -1,17 +1,16 @@
 import React, { useState } from "react";
 
-import img1 from "./images/vegetables-salad.png";
-import img2 from "./images/Frame 15.png";
-
 import img6 from "./images/Ellipse 2.png";
 import Component2 from "./component2";
+import Component3 from "./component3";
 
 const About2 = () => {
-  let [salJav, setsalJav] = useState([
-    {
-      s1: " Locally Sourced Ingredients",
-    },
-  ]);
+  let salJav = [
+    { s1: "Locally Sourced Ingredients" },
+    { s1: "Eco-Friendly Packaging" },
+    { s1: "Minimizing Food Waste" },
+    { s1: "Ethical Farming Practices" },
+  ];
 
   let [openJavob, setopenJavob] = useState(null);
 
@@ -21,47 +20,7 @@ const About2 = () => {
 
   return (
     <div>
-      <section className="bg-[#C31E26] pt-20 h-[115vh]">
-        <h1 className="text-[#FFC62B] text-[64px] font-bold text-center m-auto w-4/5  leading-[70px] py-5">
-          Discover, Select, Enjoy – Your Perfect Choice Awaits
-        </h1>
-
-        <div className="w-[50%] h-[455px] m-auto relative ">
-          <div className="flex flex-col items-center p-3 rounded-2xl absolute z-1 top-10 -left-28 bg-white">
-            <img src={img1} alt="" />
-            <p className="text-[16px] font-semibold ">100% High Quality</p>
-            <p className="text-[12px] font-normal ">
-              best quality raw materials
-            </p>
-          </div>
-
-          <img
-            className="w-full h-full object-cover"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sarmalute_mamaliguta.JPG/1024px-Sarmalute_mamaliguta.JPG"
-            alt=""
-          />
-          <div className=" absolute z-1 top-20 -right-80 w-6/10 px-2.5">
-            <p className="text-[#FFC62B] text-[14px]">
-              Explore our diverse menu, carefully curated for every taste.
-              Select your favorite dishes and indulge in a delightful experience
-            </p>
-            <div className="flex items-center gap-5 py-5">
-              <button className="bg-[#FFC62B] text-[#C31E26] rounded py-1 text-[14px] font-medium px-4 ">
-                View Menu
-              </button>
-              <button className="bg-white text-[#C31E26] rounded py-1 text-[14px] font-medium px-4 ">
-                Explore More
-              </button>
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center p-3 rounded-2xl absolute z-1 bottom-10 -right-28 bg-white">
-            <img src={img2} alt="" />
-            <p className="text-[18px] font-medium ">Michelin Star</p>
-          </div>
-        </div>
-      </section>
-
+      <Component3 />
       <Component2 />
 
       <section className="relative bg-black text-white py-10 p-10 flex items-start ">
@@ -77,9 +36,9 @@ const About2 = () => {
           </p>
         </div>
 
-        <div className="bg-[#FFFFFF1F] p-5 w-3/5 rounded-2xl">
+        <div className="bg-[#FFFFFF1F] p-5 w-3/5 relative top-0 z-2 rounded-2xl space-y-5">
           {salJav.map((e, index) => (
-            <div>
+            <div key={index} className="space-y-5">
               <button
                 onClick={() => tongleSavol(index)}
                 className="text-2xl font-medium bg-[#FFFFFF3D] flex items-center justify-between w-full p-2 px-5 rounded-xl"
@@ -107,12 +66,12 @@ const About2 = () => {
                 </span>
               </button>
               {openJavob == index && (
-                <div className="text-[13px] text-gray-600 mt-2">
-                  <p>"Sustainable Seafood",</p>
-                  <p>
-                    "Our seafood is responsibly sourced to protect marine
+                <div className="text-white mt-2 bg-[#C31E26] p-5 rounded-2xl space-y-2">
+                  <p className="text-2xl font-medium">Sustainable Seafood</p>
+                  <p className="text-[14px]">
+                    Our seafood is responsibly sourced to protect marine
                     ecosystems and ensure future generations can enjoy
-                    ocean-fresh flavors.",
+                    ocean-fresh flavors.
                   </p>
                   <img
                     src="https://bkt-akps.ru/images/kurs_dop_big/DOP/Evropeyskaya__kuhnya.jpg"
