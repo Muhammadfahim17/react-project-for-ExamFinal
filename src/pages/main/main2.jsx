@@ -1,5 +1,5 @@
 import React from "react";
-import Companent2 from "../about/component1";
+import Companent2 from "../about/component3";
 import img1 from "../../assets/Arrow.png";
 import sigmaBoy from "../../assets/sigma-sigma-boy.png";
 import sigmaBoy2 from "../../assets/sigmaboy2.jpeg";
@@ -86,8 +86,7 @@ const Main2 = () => {
       <section className="py-[100px] bg-[#070707] flex flex-col items-center">
         <div className="flex flex-col items-center text-center gap-[12px]">
           <h3 className="text-[#FFFFFF] text-[48px] font-[600] ">
-            Navigate Easily – Find Us <br />
-with Google Maps!
+            Navigate Easily – Find Us <br />with Google Maps!
           </h3>
           <p className="text-[14px] w-[430px] text-[#FFFFFF] font-[400]">
             Get real-time directions and explore our location effortlessly with Google Maps integration for a seamless and hassle-free experience.
