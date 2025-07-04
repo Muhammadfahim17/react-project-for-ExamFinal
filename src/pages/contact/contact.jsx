@@ -6,11 +6,14 @@ import pic2 from '../../assets/Frame 1321315058.svg'
 import pic3 from '../../assets/Frame 1321315061.svg'
 import pizza from '../../assets/pizza.avif'
 import pic4 from '../../assets/Arrow.svg'
+import Component3 from '../about/component3'
 
 
 const Contact = () => {
+
 	return (
 		<div>
+      <Component3/>
 			<div className='bg-[#070707] pb-[50px] lg:pb-[100px]'>
 				<div className='w-[90%] m-auto '>
 						<div className='py-[50px] lg:py-[100px]'>
@@ -26,6 +29,23 @@ const Contact = () => {
 								<h5 className='text-white text-center text-[20px]'>
 									Sarah Hamilton
 								</h5>
+                 <div className="flex w-[70%] my-[50px] mx-auto items-center ">
+              <img
+                className="w-[320px] h-[280px] rounded-xl relative z-[0] rotate-[-10deg]"
+                src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtbBoESC-0jPlLGkoQB1eydQ_ZrZfmETtCWg&s`}
+                alt=""
+              />
+              <img
+                className="w-[385px] h-[380px] rounded-xl z-10"
+                src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzMkisvOSNTuhrLzyZlWlejdvK4Rqu6fLEeA&s`}
+                alt=""
+              />
+              <img
+                className="w-[320px] h-[280px] rounded-xl rotate-[10deg]"
+                src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtbBoESC-0jPlLGkoQB1eydQ_ZrZfmETtCWg&s`}
+                alt=""
+              />
+            </div>
 								<img
 									src={strelki}
 									alt='pic'
@@ -80,13 +100,7 @@ const Contact = () => {
         </div>
         <div>
           <div>
-            <div className='text-[#C31E26] p-[15px] bg-amber-100 flex justify-between'>
-              <div>
-                <h5 className='text-[18px]'>What are your restaurant’s hours of operation?</h5>
-              <p className='text-[10px]'>Our restaurant is open Monday to Sunday from 11:00 AM to 10:00 PM.</p>
-              </div>
-              <img src={pic4} alt="pic" />
-            </div>
+           
             
           </div>
         </div>
@@ -94,6 +108,13 @@ const Contact = () => {
 
 		</div>
 	)
+
+  return (
+    <>
+      
+    </>
+  )
+
 }
 
 export default Contact
