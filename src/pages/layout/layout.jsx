@@ -97,7 +97,7 @@ const Layout = () => {
           </details>
         </div>
       </header>
-      <main>
+      <main> 
         <Outlet />
       </main>
       <footer>
