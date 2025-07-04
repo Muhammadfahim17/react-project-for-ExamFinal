@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Outlet } from "react-router";
 import image1 from "../../pages/category/img category/Frame 5.png";
-import image2 from "../../pages/category/img category/pizza1.png";
+import image2 from "../../pages/category/img category/Frame 37477.svg";
 import { useTranslation } from "react-i18next";
 
 const Layout = () => {
@@ -317,9 +317,73 @@ const Layout = () => {
                 alt=""
               />
             </div>
+
+            <p className='font-[500] text-white text-[22px] text-center' >Sarah Hamilton</p>
+
+<div className='flex text-white items-center gap-[25px]'>
+  <button className='border px-[15px] py-[15px] rounded-full font-bold'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6"><path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" /></svg></button>
+  <button className='border px-[15px] py-[15px] rounded-full font-bold'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6"><path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg></button>
+</div>
+
+
+
+          </div>
+
+    
+
+    </div>
+
+
+    <div className="w-[95%] m-auto bg-[#070707] text-white p-[25px] mb-[50px] rounded-xl mt-[70px] flex justify-between">
+      <div className="flex flex-col items-start justify-between ">
+        <img src={image1} alt="" />
+        <p className="w-[270px] font-[500]">{t('Example.20')}</p>
+        <p className="w-[355px] font-[500]">{t('Example.21')}</p>
+        <div className="bg-[#5f5f5f] w-[300px] flex justify-between items-center rounded-xl p-[8px]">
+        <p>{t('Example.22')}</p>
+          <button><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6"><path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg></button>
+        </div>
+        <p className="w-[280px] font-[500]">{t('Example.23')}</p>
+      </div>
+
+      <div className="flex flex-col items-end gap-[45px]">
+        <img src={image2} alt="" />
+        <div className="flex items-center gap-[95px]">
+          <div className="flex flex-col items-start gap-[15px]">
+          <p className="text-[23px] font-[500]">{t('Example.24')}</p>
+          <p className="text-[#575757] font-[500]">{t('Example.27')}</p>
+          <p className="text-[#575757] font-[500]">{t('Example.27')}</p>
+          <p className="text-[#575757] font-[500]">{t('Example.27')}</p>
+          <p className="text-[#575757] font-[500]">{t('Example.27')}</p>
+          <p className="text-[#575757] font-[500]">{t('Example.27')}</p>
+          </div>
+          <div className="flex flex-col items-start gap-[15px]">
+          <p className="text-[23px] font-[500]">{t('Example.25')}</p>
+          <p className="text-[#575757] font-[500]">{t('Example.27')}</p>
+          <p className="text-[#575757] font-[500]">{t('Example.27')}</p>
+          <p className="text-[#575757] font-[500]">{t('Example.27')}</p>
+          <p className="text-[#575757] font-[500]">{t('Example.27')}</p>
+          <p className="text-[#575757] font-[500]">{t('Example.27')}</p>
+          </div>
+          <div className="flex flex-col items-start gap-[15px]">
+          <p className="text-[23px] font-[500]">{t('Example.26')}</p>
+          <p className="text-[#575757] font-[500]">{t('Example.27')}</p>
+          <p className="text-[#575757] font-[500]">{t('Example.27')}</p>
+          <p className="text-[#575757] font-[500]">{t('Example.27')}</p>
+          <p className="text-[#575757] font-[500]">{t('Example.27')}</p>
+          <p className="text-[#575757] font-[500]">{t('Example.27')}</p>
           </div>
         </div>
-      </footer>
+        <div className="flex items-center gap-[40px]">
+          <p>{t('Example.28')}</p>
+          <p>{t('Example.29')}</p>
+          <p>{t('Example.30')}</p>
+        </div>
+      </div>
+
+        </div>
+
+    </footer>
     </div>
   );
 };

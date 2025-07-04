@@ -16,6 +16,7 @@ import img12 from './images/img1 (6).jpg'
 import img13 from './images/img1 (10).png'
 import img14 from './images/img1 (11).png'
 import img15 from './images/img1 (12).png'
+import Component2 from '../about/component2'
 
 const Home = () => {
   return (
@@ -36,7 +37,7 @@ const Home = () => {
             <img src={img2} alt="" className='absolute z-10 m-[20px]' />
             <img src={img6} alt="" className='absolute z-10 ml-[300px] mt-[350px]' />
 
-            <img src={img1} alt="" className='w-[500px] h-[400px]' />
+            <img src={img1} alt="" className='w-[500px] h-[400px] object-cover' />
           </div>
         </div>
         <div className='flex gap-[40px] mt-[-30px] mx-[20px] py-[50px]'>
@@ -50,6 +51,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Component2/>
       <div className='bg-[#070707] text-white'>
         <div className=' flex  items-center justify-around pb-[50px]'>
           <div className='w-[40%]'>
@@ -97,13 +99,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className='bg-[#FFC62B] py-[50px'>
-        <div className='w-[50%] py-[50px] mx-auto text-center'>
-          <p className='font-black text-4xl  '>Passionate Chefs, Dedicated Team – Crafting Culinary Excellence</p>
-          <p>Our talented chefs and dedicated team work together to create unforgettable dining experiences with passion, precision, and creativity.</p>
-        </div>
         <CardS2 />
-      </div>
       <div className='bg-black text-white text-center py-[50px]'>
         <p className='font-bold text-4xl w-[50%] mx-auto'>Unforgettable Moments, Beautifully Crafted, Memories That Last Forever</p>
         <div className="flex  my-[40px] mx-auto items-center ">
@@ -231,7 +227,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          
+
         </div>
       </div>
     </div>
